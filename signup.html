@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrieren</title>
+</head>
+<body>
+    <header>
+        <h1>Newsletter</h1> 
+    </header>
+
+    <section>
+        <h3>Bleib auf dem neuesten Stand und abonniere den Newsletter!</h3>
+        <p>
+           <form action="process.php" method="post">
+                <label for="">Name</label>
+                <input type="text" name="name" id="" placeholder="z.B. Max Mustermann">
+           </form> 
+
+           <form action="process.php" method="post">
+                <label for="">Geburtstag</label>
+                <input type="date" name="bday" id="">
+           </form>
+
+           
+            <label for="">Geschlecht</label>
+            <select name="Geschlecht" id="">
+                <option value="männlich">männlich</option>
+                <option value="weiblich">weiblich</option>
+            </select>
+
+           <form action="process.php" method="post">
+                <label for="">E-Mail</label>
+                <input type="text" name="E-Mail" id="" >
+           </form>
+
+           <form action="process.php" method="post">
+                <input type="submit" value="Newsletter abonnieren">
+           </form>
+        </p>
+
+    </section>
+</body>
+</html>
